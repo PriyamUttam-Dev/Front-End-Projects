@@ -3,11 +3,13 @@
     padding: 0;
 }
 body{
+    height: 100vh;
+    width: 100vw;
     background-color: black;
 }
 .canvas{
-    height: 100vh;
-    width: 100vw;
+    height: 80%;
+    width: 80%;
     display: flex;
     margin: auto;
 
@@ -31,5 +33,9 @@ body{
 }
 #green{
     background-color: green;
-   
+}
+h1{
+    padding-top: 100px;
+    color: bisque;
+    text-align: center;
 }
